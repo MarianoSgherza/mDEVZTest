@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li{
+    text-decoration: none;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    height: 36px;
+    width: 36px;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
